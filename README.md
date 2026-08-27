@@ -12,7 +12,7 @@ A simple C program that analyzes a password's strength, checks it against a list
   7. Length validation — warns if the password is shorter than 6 characters
   8. Actionable feedback — tells the user exactly what's missing (e.g. "Capital letter is not there, use at least one capital letter")
   9. Weighted scoring system (0–100) based on:
-       a. Password length
+       - Password length
        b. Number of character types used
        c. Whether the password appears in the common password list
   10. Strength rating — classifies the final score into:
