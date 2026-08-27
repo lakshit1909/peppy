@@ -44,7 +44,7 @@ A simple C program that analyzes a password's strength, checks it against a list
   5. Contains at least one special character
   6. Is not found in the common password list
   
-## **Example Session**
+## **Example**
   Enter password: qwerty123
 
   1. Capital letter is not there, use atleast one capital letter
