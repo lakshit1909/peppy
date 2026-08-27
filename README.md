@@ -2,7 +2,7 @@
 
 A simple C program that analyzes a password's strength, checks it against a list of commonly used/breached passwords, and gives the user actionable feedback along with a numeric security score (0–100).
 
-**Features**
+## **Features**
   1)Common password detection — flags well-known weak passwords (e.g. 123456, password, qwerty, admin, etc.)
   2)Character composition checks — detects presence of:
   3)Uppercase letters
@@ -23,7 +23,7 @@ A simple C program that analyzes a password's strength, checks it against a list
     -Very Strong (>= 85)
   Acceptance check — confirms whether the password meets all baseline requirements (length ≥ 6, has uppercase, lowercase, number, special character, and is   not a common password)
   
-How It Works
+## **How It Works**
   The program reads a password (up to 99 characters) from user input.
   It checks the password against a hardcoded list of common/breached passwords.
   It scans each character to determine which character categories are present.
@@ -36,7 +36,7 @@ How It Works
   The final score is mapped to a human-readable strength rating.
   The program prints whether the password is accepted, along with a suggested strong password example if it isn't.
   
-Requirements for an "Accepted" Password
+## **Requirements for an "Accepted" Password**
   At least 6 characters long
   Contains at least one uppercase letter
   Contains at least one lowercase letter
@@ -44,7 +44,7 @@ Requirements for an "Accepted" Password
   Contains at least one special character
   Is not found in the common password list
   
-Example Session
+## **Example Session**
   Enter password: qwerty123
 
   -Capital letter is not there, use atleast one capital letter
