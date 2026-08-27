@@ -12,15 +12,15 @@ A simple C program that analyzes a password's strength, checks it against a list
   7. Length validation — warns if the password is shorter than 6 characters
   8. Actionable feedback — tells the user exactly what's missing (e.g. "Capital letter is not there, use at least one capital letter")
   9. Weighted scoring system (0–100) based on:
-    -Password length
-    -Number of character types used
-    -Whether the password appears in the common password list
+     1. Password length
+    2. Number of character types used
+    3. Whether the password appears in the common password list
   10. Strength rating — classifies the final score into:
-    -Very Weak (< 30)
-    -Weak (< 50)
-    -Moderate (< 70)
-    -Strong (< 85)
-    -Very Strong (>= 85)
+    1. Very Weak (< 30)
+    2. Weak (< 50)
+    3. Moderate (< 70)
+    4. Strong (< 85)
+    5. Very Strong (>= 85)
   Acceptance check — confirms whether the password meets all baseline requirements (length ≥ 6, has uppercase, lowercase, number, special character, and is   not a common password)
   
 ## **How It Works**
@@ -37,18 +37,18 @@ A simple C program that analyzes a password's strength, checks it against a list
   11. The program prints whether the password is accepted, along with a suggested strong password example if it isn't.
   
 ## **Requirements for an "Accepted" Password**
-  -At least 6 characters long
-  -Contains at least one uppercase letter
-  -Contains at least one lowercase letter
-  -Contains at least one number
-  -Contains at least one special character
-  -Is not found in the common password list
+  1. At least 6 characters long
+  2. Contains at least one uppercase letter
+  3. Contains at least one lowercase letter
+  4. Contains at least one number
+  5. Contains at least one special character
+  6. Is not found in the common password list
   
 ## **Example Session**
   Enter password: qwerty123
 
-  -Capital letter is not there, use atleast one capital letter
-  -Special character is not there, use atleast one special character
+  1. Capital letter is not there, use atleast one capital letter
+  2. Special character is not there, use atleast one special character
 
   Password does not meet the requirements.
   Use a password like J@ngmo-o782
