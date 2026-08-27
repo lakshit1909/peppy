@@ -13,7 +13,7 @@ A simple C program that analyzes a password's strength, checks it against a list
   8. Actionable feedback — tells the user exactly what's missing (e.g. "Capital letter is not there, use at least one capital letter")
   9. Weighted scoring system (0–100) based on:
       - Password length
-      -Number of character types used
+      - Number of character types used
       - Whether the password appears in the common password list
   10. Strength rating — classifies the final score into:
       - Very Weak (< 30)
