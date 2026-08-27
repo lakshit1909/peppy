@@ -49,6 +49,7 @@ A simple C program that analyzes a password's strength, checks it against a list
 
   1. Capital letter is not there, use atleast one capital letter
   2. Special character is not there, use atleast one special character
+  3. Password is commonly used, choose a different password
 
   Password does not meet the requirements.
   Use a password like J@ngmo-o782
