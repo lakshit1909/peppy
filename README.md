@@ -54,5 +54,5 @@ A simple C program that analyzes a password's strength, checks it against a list
   Password does not meet the requirements.
   Use a password like J@ngmo-o782
 
-  Password Score: 85/100
-  Password Rating: Very Strong
+  Password Score: 15/100
+  Password Rating: Very Weak
