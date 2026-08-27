@@ -1,4 +1,4 @@
-#1 **Password Security & User Protection**
+# **Password Security & User Protection**
 
 A simple C program that analyzes a password's strength, checks it against a list of commonly used/breached passwords, and gives the user actionable feedback along with a numeric security score (0–100).
 
